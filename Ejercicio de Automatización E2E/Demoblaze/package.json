@@ -1,0 +1,24 @@
+{
+  "name": "demoblaze",
+  "version": "1.0.0",
+  "description": "Automatization",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress",
+    "cypress:open": "cypress open",
+    "reporte-Test": "Cypress run --spec cypress/e2e/Demoblaze.cy.js --browser chrome --headed",
+
+  },
+  "keywords": [
+    "test",
+    "automation"
+  ],
+  "author": "Dustyn Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.1.0"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^3.5.1"
+  }
+}
