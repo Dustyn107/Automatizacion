@@ -1,2 +1,0 @@
-# Automatizacion
-Automatizaciones realizadas
